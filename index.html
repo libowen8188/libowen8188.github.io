@@ -1,408 +1,549 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
+ <!-- FlatFy Theme - Andrea Galanti /-->
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-    <title>李博文的简历</title>
+    <title>HEROUR LiBowen design</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="assets/css/main.css" rel="stylesheet">
-    
-	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-    
-    <script src="assets/js/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/smoothscroll.js"></script> 
-    <script src="assets/js/Chart.js"></script><!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="assets/js/html5shiv.js"></script>
-      <script src="assets/js/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
-  <body data-spy="scroll" data-offset="0" data-target="#nav">
-
-	<div id="section-topbar">
-		<div id="topbar-inner">
-			<div class="container">
-				<div class="row">
-					<div class="dropdown">
-						<ul id="nav" class="nav">
-							<li class="menu-item"><a class="smoothScroll" href="#about" title="About"><i class="icon-user"></i></a></li>
-							<li class="menu-item"><a class="smoothScroll" href="#resume" title="Resume"><i class="icon-file"></i></a></li>
-							<li class="menu-item"><a class="smoothScroll" href="#work" title="Works"><i class="icon-briefcase"></i></a></li>
-							<li class="menu-item"><a class="smoothScroll" href="#contact" title="Contact"><i class="icon-envelope"></i></a></li>
-						</ul><!--/ uL#nav -->
-					</div><!-- /.dropdown -->
-
-					<div class="clear"></div>
-				</div><!--/.row -->
-			</div><!--/.container -->
-
-			<div class="clear"></div>
-		</div><!--/ #topbar-inner -->
-	</div><!--/ #section-topbar -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+ 
+    <!-- Custom Google Web Font -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.useso.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.useso.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
 	
-	<div id="headerwrap">
+    <!-- Custom CSS-->
+    <link href="css/general.css" rel="stylesheet">
+	
+	 <!-- Owl-Carousel -->
+    <link href="css/custom.css" rel="stylesheet">
+	<link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+	
+	<!-- Magnific Popup core CSS file -->
+	<link rel="stylesheet" href="css/magnific-popup.css"> 
+	
+	<script src="js/modernizr-2.6.2.min.js"></script>  <!-- Modernizr /-->
+	<script src="js/PIE_IE9.js"></script>  
+<script src="js/PIE_IE678.js"></script>
+	<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>  
+	
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+	<![endif]-->
+
+</head>
+
+<body id="home">
+
+	<!-- Preloader -->
+	<div id="preloader">
+		<div id="status"></div>
+	</div>
+	
+	<!-- FullScreen -->
+    <div class="intro-header">
+		<div class="col-xs-12 text-center abcen1">
+			<h1 class="h1_home wow fadeIn" data-wow-delay="0.4s"><span style="font-weight: bolder">HERO</span>UR</h1>
+			<a href="终结版.flv">
+			<h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">生活分享型相机</h3>
+			</a>
+			<ul class="list-inline intro-social-buttons">
+				<li><a href="Theme/index.html" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">我的简历</span></a>
+				</li>
+				<li id="download" ><a href="#downloadlink" class="btn  btn-lg mybutton_standard wow swing wow fadeIn" data-wow-delay="1.2s"><span class="network-name">立即购买</span></a>
+				</li>
+			</ul>
+		</div>    
+        <!-- /.container -->
+		<div class="col-xs-12 text-center abcen wow fadeIn">
+			<div class="button_down "> 
+				<a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#whatis"> <img class="img_scroll" src="img/icon/circle.png" alt=""> </a>
+			</div>
+		</div>
+    </div>
+	
+	<!-- NavBar-->
+	<nav class="navbar-default" role="navigation">
 		<div class="container">
-			<div class="row centered">
-				<div class="col-lg-12">
-				  <h1>Li Bowen</h1>
-				  <h3>Product Designer | 18710318852@163.com</h3>
-				</div><!--/.col-lg-12 -->
-			</div><!--/.row -->
-		</div><!--/.container -->
-	</div><!--/.#headerwrap -->
-	
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#home">丝路星工业设计大赛二等奖</a>
+			</div>
 
-	<section id="about" name="about"></section>
-	<div id="intro">
-		<div class="container">
-			<div class="row">
-				
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>ABOUT</h5>
-				</div>
-				<div class="col-lg-6">
-				  <p>我叫李博文，是西北工业大学工业设计专业的的一名学生。我认为，设计可以将人与自然相结合，从而创造出人适用于自然的产品并给人精神上的愉悦。</p>
-				</div>
-				<div class="col-lg-3">
-					<p><a href="#"></a>
-				    <sm>工业设计是一个有创造性的职业，充满趣味，但也不乏艰难险阻，不过冲破阻碍，获得真知，设计出充满人性的产品不也正是我们的使命吗？</sm></p>
-				</div>
-				
-			</div><!--/.row -->
-		</div><!--/.container -->
-	</div><!--/ #intro -->
-
-
-	<section id="resume" name="resume"></section>
-	<!--EDUCATION DESCRIPTION -->
-	<div class="container desc">
-		<div class="row">
-
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>EDUCATION</h5>
-				</div>
-				<div class="col-lg-6">
-					<p><t>产品设计</t>
-					  <br>
-西北工业大学 <br>
-<em>2013年9月-2017年7月</em><br>
-					</p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>艺术学学士</sm><br/>
-					<imp><sm>在读</sm></imp>
-					</p>
-				</div>
-	
-				<div class="col-lg-6 col-lg-offset-3">
-					<p><t>视觉传达设计</t><br/>
-						台湾崑山科技大学 <br/>
-						<i>2015年2月-2015年7月</i>
-					</p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>交流学习</sm></p>
-				</div>
-	
-		</div><!--/.row -->
-		<br>
-		<hr>
-	</div><!--/.container -->
-	
-	
-	<!--WORK DESCRIPTION -->
-	<div class="container desc">
-		<div class="row">
-
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>WORK</h5>
-				</div>
-				<div class="col-lg-6">
-					<p><t>无人机造型设计师</t><br/>
-						无人机设计公司（在职，名称现保密） <br/>
-					</p>
-					<p><more>大型油动无人机的造型设计，材料的选择等</more></p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>2016年3 - 至今</sm></p>
-				</div>
-	
-				<div class="col-lg-6 col-lg-offset-3">
-					<p><t>犀牛软件助教</t><br/>
-						杭州学犀牛中文网面授学校 <br/>
-					</p>
-					<p><more>在学犀牛中文网面授学校学习犀牛建模，表现优异，被推荐成为助教，教授建模技法。</more></p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>2016年1月 - 2016年2月</sm></p>
-				</div>
-		</div><!--/.row -->
-		<br>
-		<hr>
-	</div><!--/.container -->
-
-
-	<!--AWARDS DESCRIPTION -->
-	<div class="container desc">
-		<div class="row">
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>AWARDS</h5>
-				</div>
-				<div class="col-lg-6">
-					<p><t>2016年丝路星工业设计大赛</t><br/>
-						二等奖、三等奖、锐意创新奖 <br/>
-					</p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>2016年5月</sm></p>
-				</div>
-	
-				<div class="col-lg-6 col-lg-offset-3">
-					<p><t>全国大学生工业设计大赛</t><br/>
-						二等奖、三等奖
-					</p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>2015年</sm></p>
-				</div>
-		
-		</div><!--/.row -->
-		<br>
-	</div><!--/.container -->
-	
-	
-	<!--SKILLS DESCRIPTION -->
-	<div id="skillswrap">
-		<div class="container">
-			<div class="row">
-					<div class="col-lg-2 col-lg-offset-1">
-						<h5>SKILLS</h5>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="javascript" height="130" width="130"></canvas>
-						<p>Photoshop</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 90,
-										color:"#1abc9c"
-									},
-									{
-										value : 10,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="bootstrap" height="130" width="130"></canvas>
-						<p>Illustration</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 90,
-										color:"#1abc9c"
-									},
-									{
-										value : 10,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="wordpress" height="130" width="130"></canvas>
-						<p>Rhinoceros</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 90,
-										color:"#1abc9c"
-									},
-									{
-										value : 10,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
+			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
 					
-					<div class="col-lg-3 col-lg-offset-3 centered">
-						<canvas id="html" height="130" width="130"></canvas>
-						<p>Pro E</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 60,
-										color:"#1abc9c"
-									},
-									{
-										value : 40,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("html").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="photoshop" height="130" width="130"></canvas>
-						<p>HDRls</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 70,
-										color:"#1abc9c"
-									},
-									{
-										value : 30,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("photoshop").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="illustrator" height="130" width="130"></canvas>
-						<p>sketch</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 80,
-										color:"#1abc9c"
-									},
-									{
-										value : 20,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("illustrator").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
+					<li class="menuItem"><a href="#whatis">这是什么?</a></li>
+					<li class="menuItem"><a href="#useit">怎么用？</a></li>
+					<li class="menuItem"><a href="#screen">配件</a></li>
+					<li class="menuItem"><a href="#credits">参数</a></li>
+					<li class="menuItem"><a href="#contact">联系我们</a></li>
+				</ul>
+			</div>
+		   
+		</div>
+	</nav> 
+	<div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >手机网站模板</a></div>
+	<!-- What is -->
+	<div id="whatis" class="content-section-b" style="border-top: 0">
+		<div class="container">
 
-			</div><!--/.row -->
-			<br>
-		</div><!--/.container -->
-	</div><!--/ #skillswrap -->
-
-
-
-	<section id="work" name="work"></section>
-	<!--PORTFOLIO DESCRIPTION -->
-	<div class="container desc">
-		<div class="row">
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>PORTFOLIO</h5>
-				</div>
-				<div class="col-lg-6">
-					<p><img class="img-responsive" src="assets/img/port01.jpg" alt=""></p>
-				</div>
-				<div class="col-lg-3">
-					<p>未来电驱动超跑设计</p>
-				<p><more>丝绸的造型变化而来，完美的体现出东方的韵味。采用了磁悬浮车轮，减少车轮与地面的摩擦，提速快。友好的座椅提供优良的驾驶体验。全景式天窗视野更加的宽广。<br/><br/>
-					<sm><em class="icon-tag"></em> Product design</sm>
-				</more> 
-				</p>
-				</div>
-	
-				<div class="col-lg-6 col-lg-offset-3">
-					<p><a href="../index.html"><img class="img-responsive" src="assets/img/port02.jpg" alt=""></a> </p>
-				</div>
-				<div class="col-lg-3">
-						<p>HEROUR生活相机</p>
-					<p><more>设计简介易用，拥有简单的造型，一体成型的机身和体贴的操作设计，让每个人都能方便的使用相机。<br/><br/>
-						<sm><em class="icon-tag"></em> Product design</sm>
-					</more> 
-					</p>
-				</div>
+			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<h2>这是什么?</h2>
+				<p class="lead" style="margin-top:0">生活分享型相机</p>
 				
-				<div class="col-lg-6 col-lg-offset-3">
-					<p><img class="img-responsive" src="assets/img/port03.jpg" alt=""></p>
-				</div>
-				<div class="col-lg-3">
-						<p>小飞象城市空中巴士设计</p>
-					<p><more>采用三倾转涵道风扇与环翼共同作用的复合布局方式，同时结合模块化设计思想完成整体布局设计。与枢纽大楼结合，满足未来城市飞行器的设计需求，具有一定的实用价值和广阔的应用前景。<br/><br/>
-						<sm><em class="icon-tag"></em> Product &nbsp;design</sm>
-					</more> 
-					</p>
-				</div>
-		
-		</div><!--/.row -->
-		<br>
-		<br>
-	</div><!--/.container -->
+			</div>
+			<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="788" height="576" align="MIDDLE" id="FLVPlayer">
+			  <param name="movie" value="FLVPlayer_Progressive.swf" />
+			  <param name="quality" value="high">
+			  <param name="wmode" value="opaque">
+			  <param name="scale" value="noscale">
+			  <param name="salign" value="lt">
+			  <param name="FlashVars" value="&amp;MM_ComponentVersion=1&amp;skinName=Clear_Skin_3&amp;streamName=终结版&amp;autoPlay=true&amp;autoRewind=true" />
+			  <param name="swfversion" value="8,0,0,0">
+			  <!-- 此 param 标签提示使用 Flash Player 6.0 r65 和更高版本的用户下载最新版本的 Flash Player。如果您不想让用户看到该提示，请将其删除。 -->
+			  <param name="expressinstall" value="Scripts/expressInstall.swf">
+			  <!-- 下一个对象标签用于非 IE 浏览器。所以使用 IECC 将其从 IE 隐藏。 -->
+			  <!--[if !IE]>-->
+			  <object type="application/x-shockwave-flash" data="FLVPlayer_Progressive.swf" width="788" height="576">
+			    <!--<![endif]-->
+			    <param name="quality" value="high">
+			    <param name="wmode" value="opaque">
+			    <param name="scale" value="noscale">
+			    <param name="salign" value="lt">
+			    <param name="FlashVars" value="&amp;MM_ComponentVersion=1&amp;skinName=Clear_Skin_3&amp;streamName=终结版&amp;autoPlay=true&amp;autoRewind=true" />
+			    <param name="swfversion" value="8,0,0,0">
+			    <param name="expressinstall" value="Scripts/expressInstall.swf">
+			    <!-- 浏览器将以下替代内容显示给使用 Flash Player 6.0 和更低版本的用户。 -->
+			    <div>
+			      <h4>此页面上的内容需要较新版本的 Adobe Flash Player。</h4>
+			      <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获取 Adobe Flash Player" /></a></p>
+		        </div>
+			    <!--[if !IE]>-->
+		      </object>
+			  <!--<![endif]-->
+		  </object>
+			
+			<div class="row">
+			
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <img class="rotate" src="img/icon/tweet.svg" alt="Generic placeholder image">
+				  <h3>一键分享</h3>
+				  <p class="lead">通过内置WiFi或NFC将照片快速导入手机配套的APP中，进行一键分享，操作简洁，快如闪电，生活点滴，轻松分享！ </p>
+
+				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+			  </div><!-- /.col-lg-4 -->
+				
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <img  class="rotate" src="img/icon/picture.svg" alt="Generic placeholder image">
+				   <h3>超长续航</h3>
+				   <p class="lead">内置2000mAh的圆形锂电池，2小时的续航时间保证了拍摄视频的流畅性，独特的结构设计保证不会发热严重，影响手感。</p>
+				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+				
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <img  class="rotate" src="img/icon/retina.svg" alt="Generic placeholder image">
+				   <h3>高画质</h3>
+					<p class="lead">1600万像素感应器可以拍摄高清视频，146°广角镜头带来出众的抓拍功能，更可轻松连接iOS和Android手机。为您抓拍所有美好瞬间。</p>
+				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+				
+		  </div><!-- /.row -->
+				
+			<div class="row tworow">
+			
+				<div class="col-sm-4  wow fadeInDown text-center">
+				  <img class="rotate" src="img/icon/laptop.svg" alt="Generic placeholder image">
+				  <h3>丰富配件</h3>
+				  <p class="lead">具有丰富的配件可供选择，精美的皮套易于携带。丰富的外设，方便与自行车，帽子，墙壁等连接，拓展丰富的使用范围。</p>
+				 <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+				
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <img  class="rotate" src="img/icon/map.svg" alt="Generic placeholder image">
+				   <h3>地图导航</h3>
+				   <p class="lead">与XX地图合作，覆盖了全球百分之 80的旅游景区，轻松为您推荐适合当时旅游的景区，规划拍摄行程等。</p>
+				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+				
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <img  class="rotate" src="img/icon/browser.svg" alt="Generic placeholder image">
+				   <h3>轻松美图</h3>
+				 <p class="lead">手机端APP自带各种滤镜，轻松拍出大片范儿，在设置美颜后，只要单击拍摄按钮，就能轻松自动美颜，拍出的视频美美哒~</p>
+				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+				
+			</div><!-- /.row -->
+	  </div>
+	</div>
 	
+	<!-- Use it -->
+    <div id ="useit" class="content-section-a">
+
+        <div class="container">
+			
+            <div class="row">
+			
+				<div class="col-sm-6 pull-right wow fadeInRightBig">
+                    <img class="img-responsive " src="img/ipad.png" alt="">
+                </div>
+				
+                <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">
+                  <h3 class="section-heading">简洁的设计</h3>
+                  <p class="lead"> <br>
+                      HEROUR的设计简洁易用，拥有令人惊艳的工业设计，一体成型的机身，体贴的操作设计，让每个人都能够方便的使用相机，它解决了现有相机的四大缺点：电池续航时间短；分辨率低，画质普通；携带不便，固定，穿戴不便，外观不好看，配件不全等。</p>
+                    <p>&nbsp; </p>
+				</div>   
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+
+    <div class="content-section-b"> 
+		
+		<div class="container">
+            <div class="row">
+                <div class="col-sm-6 wow fadeInLeftBig">
+                     <div id="owl-demo-1" class="owl-carousel">
+						<a href="img/iphone.png" class="image-link">
+							<div class="item">
+								<img  class="img-responsive img-rounded" src="img/iphone.png" alt="">
+							</div>
+						</a>
+						<a href="img/iphone.png" class="image-link">
+							<div class="item">
+								<img  class="img-responsive img-rounded" src="img/iphone.png" alt="">
+							</div>
+						</a>
+						<a href="img/iphone.png" class="image-link">
+							<div class="item">
+								<img  class="img-responsive img-rounded" src="img/iphone.png" alt="">
+							</div>
+						</a>
+					</div>       
+                </div>
+				
+                <div class="col-sm-6 wow fadeInRightBig"  data-animation-delay="200">   
+                    <h3 class="section-heading">良好的握持手感</h3>
+                    <p class="lead">
+				        <br>
+			          只需一按即可得到令人震惊的画质与生动艳丽的影像片段，采用 iPhone5c 后盖的制作工艺，经过一系列的打磨、抛光，细腻的手感让人爱不释手，艳丽的色彩让人百看不厌。</p>
+
+					 <p>&nbsp; </p>
+				</div>  			
+			</div>
+        </div>
+    </div>
+
+    <div class="content-section-a">
+
+        <div class="container">
+
+             <div class="row">
+			 
+				<div class="col-sm-6 pull-right wow fadeInRightBig">
+                    <img class="img-responsive " src="img/doge.png" alt="">
+                </div>
+			 
+                <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">   
+                    <h3 class="section-heading">生活点滴 轻松分享</h3>
+                    <p class="lead"> <br>
+                      <br>
+                    随时通过内置 WiFi 传输到手机上，编辑、分享一键完成。一站式服务，使用户有流畅的体验，避免多个软件交替使用的割裂感。</p>
+				</div>           
+            </div>
+        </div>
+
+    </div>
+
+	<!-- Screenshot -->
+	<div id="screen" class="content-section-b">
+        <div class="container">
+          <div class="row" >
+			 <div class="col-md-6 col-md-offset-3 text-center wrap_title ">
+				<h2>丰富的配件</h2>
+				<p class="lead" style="margin-top:0">上天入地</p>
+			 </div>
+		  </div>
+		    <div class="row wow bounceInUp" >
+              <div id="owl-demo" class="owl-carousel">
+				
+				<a href="img/slide/1.png" class="image-link">
+					<div class="item">
+						<img  class="img-responsive img-rounded" src="img/slide/1.png" alt="Owl Image">
+					</div>
+				</a>
+				
+               <a href="img/slide/2.png" class="image-link">
+					<div class="item">
+						<img  class="img-responsive img-rounded" src="img/slide/2.png" alt="Owl Image">
+					</div>
+				</a>
+				
+				<a href="img/slide/3.png" class="image-link">
+					<div class="item">
+						<img  class="img-responsive img-rounded" src="img/slide/3.png" alt="Owl Image">
+					</div>
+				</a>
+				
+				<a href="终结版.flv" class="image-link">
+					<div class="item">
+						<img  class="img-responsive img-rounded" src="img/slide/1.png" alt="Owl Image">
+					</div>
+				</a>
+				
+               <a href="img/slide/2.png" class="image-link">
+					<div class="item">
+						<img  class="img-responsive img-rounded" src="img/slide/2.png" alt="Owl Image">
+					</div>
+				</a>
+				
+				<a href="img/slide/3.png" class="image-link">
+					<div class="item">
+						<img  class="img-responsive img-rounded" src="img/slide/3.png" alt="Owl Image">
+					</div>
+				</a>
+              </div>       
+          </div>
+        </div>
 
 
-	<section id="contact" name="contact"></section>
-	<!--FOOTER DESCRIPTION -->
-	<div id="footwrap">
+	</div>
+	
+	<div  class="content-section-c ">
+		<div class="container">
+			<div class="row">
+			<div class="col-md-6 col-md-offset-3 text-center white">
+			  <h2>还可以定制哦~</h2>
+			  <p class="lead" style="margin-top:0">一个情理之中的惊喜</p>
+			</div>
+			<div class="col-md-6 col-md-offset-3 text-center">
+				<div class="mockup-content">
+						<div class="morph-button wow pulse morph-button-inflow morph-button-inflow-1">
+							<button type="button "><span>Subscribe to our Newsletter</span></button>
+							<div class="morph-content">
+								<div>
+									<div class="content-style-form content-style-form-4 ">
+									  <h2 class="morph-clone">立即定制</h2>
+									  <form>
+										<p><label>Your Email Address</label><input type="text"/></p>
+											<p><button>Subscribe me</button></p>
+									  </form>
+									</div>
+								</div>
+							</div>
+						</div>
+				</div>
+			</div>	
+			</div>>
+		</div>
+	</div>	
+	
+	<!-- Credits -->
+	<div id="credits" class="content-section-a">
 		<div class="container">
 			<div class="row">
 			
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>CONTACT</h5>
-				</div>
-				<div class="col-lg-6">
-					<p><t>Email</t><br/>
-						18710318852@163.com <br/>
-					</p>
-					<p><t>Adress</t><br/>
-						旺园学生公寓 <br/>
-						西北工业大学友谊校区 <br/>
-						陕西省，西安市 <br/>
-					</p>
-					<p><t>Phone</t><br/>
-						18710318852 <br/>
-					</p>
-				</div>
-				<div class="col-lg-3">
-					<p><t>微信</t><br/>
-                    dw497916752 <br/>
-					<p>
-						<a href="#"></a>
-						<a href="#"></a>
-						<a href="#"></a>
-						<a href="#"></a>
-						<a href="#"></a>
-
-					</p>
-				</div>
-			</div><!--/.row -->
-		</div><!--/.container -->
-	</div><!--/ #footer -->
-	
-	<div id="c">
-		<div class="container">
-			<p>Created by <a href="http://www.blacktie.co">Libowen</a></p>
-		
+			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<h2>详细参数</h2>
+				
+			 </div>
+			 
+				<div class="col-sm-6  block wow bounceIn">
+					<div class="row">
+						<div class="col-md-4 box-icon rotate"> 
+							<i class="fa fa-desktop fa-4x "> </i> 
+						</div>
+						<div class="col-md-8 box-ct">
+							<h3> 系统 </h3>
+							<p>Herour OS 1.1.1</p>
+						</div>
+				  </div>
+			  </div>
+			  <div class="col-sm-6 block wow bounceIn">
+					<div class="row">
+					  <div class="col-md-4 box-icon rotate"> 
+						<i class="fa fa-picture-o fa-4x "> </i> 
+					  </div>
+					  <div class="col-md-8 box-ct">
+						<h3> 相机参数 </h3>
+						<p>非球面高清光学玻璃镜头 / F2.8大光圈 155°超大广角<br>
+						  ST高性能三轴重力传感器<br>
+					    潜水深度可达专业级40米（需单独购买防水壳配件）</p> 
+					  </div>
+					</div>
+			  </div>
+		  </div>
+		  
+		  <div class="row tworow">
+				<div class="col-sm-6  block wow bounceIn">
+					<div class="row">
+						<div class="col-md-4 box-icon rotate"> 
+							<i class="fa fa-magic fa-4x "> </i> 
+						</div>
+						<div class="col-md-8 box-ct">
+							<h3> 电池性能 </h3>
+							<p>·采用松下高密度锂离子电芯及系统的低功耗设计<br>
+							  960mAh提供更长的续航能力<br>
+							  · TI Charger和Gas Guage芯片<br>
+							  · TI 高效开关模式快速充电<br>
+						    · TI专利算法电量计，APP可准确看到电池电量信息</p>
+						</div>
+				  </div>
+			  </div>
+			  <div class="col-sm-6 block wow bounceIn">
+					<div class="row">
+					  <div class="col-md-4 box-icon rotate"> 
+						<i class="fa fa-heart fa-4x "> </i> 
+					  </div>
+					  <div class="col-md-8 box-ct">
+						<h3> 存储</h3>
+						<p>最大支持128G 最小4G<br>
+					    ( 建议选用 CLASS 10高速卡获得更好体验 )</p> 
+					  </div>
+					</div>
+			  </div>
+		  </div>
 		</div>
 	</div>
 	
+	<!-- Banner Download -->
+	<div id="downloadlink" class="banner">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				  <h2>我要预约</h2>
+				  <p class="lead" style="margin-top:0">预订下一代产品</p>
+				  <p><a class="btn btn-embossed btn-primary view" role="button">预约</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Contact -->
+	<div id="contact" class="content-section-a">
+		<div class="container">
+			<div class="row">
+			
+			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<h2>联系我们</h2>
+				<p class="lead" style="margin-top:0">谢谢您的厚爱！</p>
+			</div>
+			
+			<form role="form" action="" method="post" >
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="InputName">姓名</label>
+						<div class="input-group">
+							<input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
+							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+						</div>
+					</div>
+					
+					<div class="form-group">
+						<label for="InputEmail">邮箱</label>
+						<div class="input-group">
+							<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email" required  >
+							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+						</div>
+					</div>
+					
+					<div class="form-group">
+						<label for="InputMessage">电话</label>
+						<div class="input-group">
+							<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
+							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+						</div>
+					</div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/bootstrap.js"></script>
+					<input type="submit" name="submit" id="submit" value="Submit" class="btn wow tada btn-embossed btn-primary pull-right">
+				</div>
+			</form>
+			
+			<hr class="featurette-divider hidden-lg">
+				<div class="col-md-5 col-md-push-1 address">
+					<address>
+					<h3>李博文 设计</h3>
+					<p class="lead">西北工业大学<br>
+					产品设计<br>
+					电话：187-1031-8852<br>
+					微信：dw497916752</p>
+					</address>
+
+					<h3>此产品获得丝路星工业设计二等奖</h3>
+					<li class="social"> <a href="#"> </a> 
+					<a href="#"> </a>
+					</li>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <h3 class="footer-title">&nbsp;</h3>
+          </div> 
+          <!-- /col-xs-7 -->
+
+          <div class="col-md-5">
+            <div class="footer-banner">
+              <h3 class="footer-title">&nbsp;</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="js/script.js"></script>
+	<!-- StikyMenu -->
+	<script src="js/stickUp.min.js"></script>
+	<script type="text/javascript">
+	  jQuery(function($) {
+		$(document).ready( function() {
+		  $('.navbar-default').stickUp();
+		  
+		});
+	  });
+	
+	</script>
+	<!-- Smoothscroll -->
+	<script type="text/javascript" src="js/jquery.corner.js"></script> 
+	<script src="js/wow.min.js"></script>
+	<script>
+	 new WOW().init();
+	</script>
+	<script src="js/classie.js"></script>
+	<script src="js/uiMorphingButton_inflow.js"></script>
+	<!-- Magnific Popup core JS file -->
+<script src="js/jquery.magnific-popup.js"></script>
+<script type="text/javascript">
+swfobject.registerObject("FLVPlayer");
+    </script>
 </body>
+
 </html>
